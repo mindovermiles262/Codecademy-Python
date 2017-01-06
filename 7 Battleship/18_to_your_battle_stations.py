@@ -32,7 +32,12 @@ def random_col(board):
 ship_row = random_row(board)
 ship_col = random_col(board)
 
-# Board control
+# Define raw_input for Py 3 compatability
+def raw_input(x):
+    x = input(x)
+    return x
+
+# Board Control
 for turn in range(4):
     guess_row = int(raw_input("Guess Row:"))
     guess_col = int(raw_input("Guess Col:"))
