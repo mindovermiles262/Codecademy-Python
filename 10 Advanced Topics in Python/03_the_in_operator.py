@@ -10,7 +10,7 @@ Codecademy Python
 For each key in my_dict: print out the key , then a space, then the value 
 stored by that key.
 
-(You should use print a, b rather than print a + " " + b.)
+(You should use print a, b rather than print a + " " + b.) 
 
 """
 

@@ -9,7 +9,7 @@ Codecademy Python
 
 Create your own Python dictionary, my_dict, in the editor to the right with t
 wo or three key/value pairs.
-Then, print the result of calling the my_dict.items().
+Then, print the result of calling the my_dict.items(). 
 
 """
 
