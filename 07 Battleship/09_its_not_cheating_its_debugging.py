@@ -32,7 +32,11 @@ ship_row = random_row(board)
 ship_col = random_col(board)
 
 # Add your code below!
-guess_row = int(raw_input("Guess Row: "))
-guess_col = int(raw_input("Guess Col: "))
+try:
+    guess_row = int(raw_input("Guess Row:"))
+    guess_col = int(raw_input("Guess Col:"))
+except NameError:
+    guess_row = int(input("Guess Row:"))
+    guess_col = int(input("Guess Col:"))
 print(ship_col)
 print(ship_row)

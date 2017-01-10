@@ -27,10 +27,10 @@ def print_board(board):
 
 # Add your code below!
 def random_row(board):
-    return randint(1, len(board))
+    return randint(1, len(board) -1)
 
 def random_col(board):
-    return randint(1, len(board[0]))
+    return randint(1, len(board[0]) -1)
 
 random_row(board)
 random_col(board)
